@@ -140,9 +140,8 @@ body
     left: 0;
     background-color: #f9f9f9;
     min-width: 200px;
-    max-height: 300px; 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
+    z-index: 1;
   }
   .dropdown-content li {
     padding: 10px;
@@ -163,11 +162,6 @@ body
   .dropdown:hover .dropdown-content {
     display: block;
   }    
-
-  .dropdown:hover .dropdown-content,
-.dropdown.active .dropdown-content {
-    display: block; /* Show the dropdown */
-}
 #hero
 {
     background-image: url("img/hero4.png");
@@ -907,11 +901,10 @@ footer a:hover
     }
 
     .dropdown-content {
-        width: 100%;
-        text-align: left;
         position: relative; /* Change position for mobile */
-        max-height: none; /* Remove max-height */
-        overflow-y: visible;
+        max-height: 300px; /* Set max height for scrolling */
+        overflow-y: auto;
+        
     }
 
     .menu-icon {
