@@ -974,7 +974,8 @@ footer a:hover
 
 @media (max-width: 768px) {
     #product1 .pro {
-        width: 100%; /* 1 product per row on mobile */
+        width: 48%; /* 2 products per row on mobile */
+        margin: 1%;
     }
 }
 
