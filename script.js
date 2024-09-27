@@ -13,5 +13,5 @@ function toggleMenu() {
 function toggleDropdown(event) {
     event.preventDefault(); // Prevent page reload on clicking anchor
     const dropdown = event.target.nextElementSibling;
-    dropdown.classList.toggle("show");
+    dropdown.classList.toggle("active");
 }
