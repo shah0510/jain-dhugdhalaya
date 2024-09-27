@@ -1082,3 +1082,16 @@ footer a:hover
         margin: 10px 5px;
     }
 }
+
+@media (max-width: 480px) {
+    #product1 {
+        display: flex;
+        flex-wrap: wrap;  /* Ensure that the products can wrap to the next row */
+        justify-content: space-between; /* Add space between products */
+    }
+
+    #product1 .pro {
+        width: 48%; /* Set each product to take 48% of the width for two per row */
+        margin-bottom: 20px; /* Add space between rows */
+    }
+}
