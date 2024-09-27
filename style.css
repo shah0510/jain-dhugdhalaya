@@ -974,13 +974,13 @@ footer a:hover
 
 @media (max-width: 480px) {
     #product1 .pro-container {
-        justify-content: space-between;
+        justify-content: space-between; /* Ensure spacing is maintained */
     }
 
     #product1 .pro {
         width: 48%; /* Two products per row */
-        min-width: 220px; /* Optional minimum width */
-        margin-bottom: 20px; /* Space between rows */
+        min-width: 200px; /* Adjusted minimum width to ensure visibility */
+        margin: 1%; /* Provide some margin around products */
     }
 }
 
