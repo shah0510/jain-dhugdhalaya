@@ -973,17 +973,10 @@ footer a:hover
 }
 
 @media (max-width: 480px) {
-    #product1 .pro-container {
-        justify-content: space-between; /* Ensure spacing is maintained */
-    }
-
     #product1 .pro {
-        width: 48%; /* Two products per row */
-        min-width: 200px; /* Adjusted minimum width to ensure visibility */
-        margin: 1%; /* Provide some margin around products */
+        width: 100%; /* One product per row on mobile */
     }
 }
-
 @media (max-width: 768px) {
     #hero {
         height: 50vh;
