@@ -972,19 +972,6 @@ footer a:hover
     }
 }
 
-@media (max-width: 768px) {
-    #product1 {
-        display: flex;
-        flex-wrap: wrap;  /* Ensure that the products can wrap to the next row */
-        justify-content: space-between; /* Add space between products */
-    }
-
-    #product1 .pro {
-        width: 38%; /* Set each product to take 48% of the width for two per row */
-        margin-bottom: 20px; /* Add space between rows */
-    }
-}
-
 @media (max-width: 480px) {
     #product1 .pro-container {
         justify-content: space-between;
