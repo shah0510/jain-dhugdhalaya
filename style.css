@@ -1066,8 +1066,12 @@ footer a:hover
 
 /* Mobile View */
 @media screen and (max-width: 480px) {
+    #feature {
+        justify-content: space-between; /* Ensure proper spacing for 3 per row */
+    }
+
     #feature .fe-box {
-        width: 50%; /* Make the feature boxes full width for mobile */
-        margin: 10px 0;
+        width: 30%; /* Make the feature boxes 3 per row */
+        margin: 10px 5px;
     }
 }
