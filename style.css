@@ -972,10 +972,10 @@ footer a:hover
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     #product1 .pro {
         width: 48%; /* 2 products per row on mobile */
-        margin: 1%;
+        margin-bottom: 20px;
     }
 }
 
