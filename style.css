@@ -1067,7 +1067,7 @@ footer a:hover
 /* Mobile View */
 @media screen and (max-width: 480px) {
     #feature .fe-box {
-        width: 100%; /* Make the feature boxes full width for mobile */
+        width: 50%; /* Make the feature boxes full width for mobile */
         margin: 10px 0;
     }
 }
