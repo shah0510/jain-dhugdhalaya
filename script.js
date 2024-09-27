@@ -6,7 +6,7 @@ function toggleMenu() {
 // Toggle the mobile menu when the hamburger is clicked
 function toggleMenu() {
     const navbar = document.getElementById("navbar");
-    navbar.classList.toggle("show");
+    navbar.classList.toggle("active");
 }
 
 // Toggle the dropdown on click (and prevent the default anchor behavior)
