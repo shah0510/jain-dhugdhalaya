@@ -980,7 +980,7 @@ footer a:hover
     }
 
     #product1 .pro {
-        width: 48%; /* Set each product to take 48% of the width for two per row */
+        width: 38%; /* Set each product to take 48% of the width for two per row */
         margin-bottom: 20px; /* Add space between rows */
     }
 }
@@ -1091,7 +1091,7 @@ footer a:hover
     }
 
     #product1 .pro {
-        width: 48%; /* Set each product to take 48% of the width for two per row */
+        width: 38%; /* Set each product to take 48% of the width for two per row */
         margin-bottom: 20px; /* Add space between rows */
     }
 }
