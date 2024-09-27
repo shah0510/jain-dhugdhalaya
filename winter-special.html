@@ -13,31 +13,36 @@
         <a href="#"><img src="logo.png" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-                <li><a  href="index.html">HOME</a></li>
-                <li class="dropdown">
-                    <a href="shop.html">PRODUCTS <i class="fas fa-caret-down"></i></a>
-                    <ul class="dropdown-content">
-                      <li><a href="sugar-free.html">Sugar Free Sweets</a></li>
-                      <li><a href="ghee-sweets.html">Pure Ghee Sweets</a></li>
-                      <li><a href="unique-products.html">Unique Products</a></li>
-                      <li><a href="winter-special.html">Winter Special</a></li>
-                      <li><a href="basundi.html">Basundi</a></li>
-                      <li><a href="bengali-sweets.html">Sp. Bengali Sweets</a></li>
-                      <li><a href="shrikhand.html">Shrikhand</a></li>
-                      <li><a href="dryfruit-sweets.html">Dry Fruit Sweets</a></li>
-                      <li><a href="selected-dryfruits.html">Selected Dryfruits</a></li>
-                      <li><a href="kaju-katli.html">Preminum Kaju Katli</a></li>
-                      <li><a href="festival-special.html">Festival Special</a></li>
-                      <li><a href="crispy-chikkies.html">Crispy Chikkies</a></li>
-                      <li><a href="farsan.html">Farsan</a></li>
-                    </ul>
-                  </li>
-                <li><a href="blog.html">BLOG</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-               
+              <li><a class="active" href="index.html">HOME</a></li>
+              <li class="dropdown">
+                <a href="#" onclick="toggleDropdown(event)">PRODUCTS <i class="fas fa-caret-down"></i></a>
+                <ul class="dropdown-content">
+                  <li><a href="sugar-free.html">Sugar Free Sweets</a></li>
+                  <li><a href="ghee-sweets.html">Pure Ghee Sweets</a></li>
+                  <li><a href="unique-products.html">Unique Products</a></li>
+                  <li><a href="winter-special.html">Winter Special</a></li>
+                  <li><a href="basundi.html">Basundi</a></li>
+                  <li><a href="bengali-sweets.html">Sp. Bengali Sweets</a></li>
+                  <li><a href="shrikhand.html">Shrikhand</a></li>
+                  <li><a href="dryfruit-sweets.html">Dry Fruit Sweets</a></li>
+                  <li><a href="selected-dryfruits.html">Selected Dryfruits</a></li>
+                  <li><a href="kaju-katli.html">Preminum Kaju Katli</a></li>
+                  <li><a href="festival-special.html">Festival Special</a></li>
+                  <li><a href="crispy-chikkies.html">Crispy Chikkies</a></li>
+                  <li><a href="farsan.html">Farsan</a></li>
+                </ul>
+              </li>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
             </ul>
-        </div>
+          </div>
+          
+          <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
     </section>
 
     <section id="page-header">
