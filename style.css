@@ -1052,3 +1052,22 @@ footer a:hover
         height: 20vh;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #feature {
+        justify-content: center; /* Center the feature boxes on smaller screens */
+    }
+
+    #feature .fe-box {
+        width: 30%; /* Make the feature boxes 2 per row */
+        margin: 10px 5px;
+    }
+}
+
+/* Mobile View */
+@media screen and (max-width: 480px) {
+    #feature .fe-box {
+        width: 100%; /* Make the feature boxes full width for mobile */
+        margin: 10px 0;
+    }
+}
