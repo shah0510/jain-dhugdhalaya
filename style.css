@@ -927,7 +927,8 @@ footer a:hover
 
 @media (max-width: 768px) {
     .hamburger {
-        display: flex;
+        cursor: pointer;
+        display: block;
     }
 
     #navbar {
@@ -950,6 +951,14 @@ footer a:hover
         width: 100%;
         display: block;
         padding: 10px 0;
+    }
+
+    #navbar.show {
+        display: flex;
+    }
+
+    .dropdown-content.show {
+        display: block;
     }
 
     #navbar.active {
