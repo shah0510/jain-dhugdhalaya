@@ -903,6 +903,9 @@ footer a:hover
     .dropdown-content {
         width: 100%;
         text-align: left;
+        position: relative; /* Change position for mobile */
+        max-height: none; /* Remove max-height */
+        overflow-y: visible;
     }
 
     .menu-icon {
