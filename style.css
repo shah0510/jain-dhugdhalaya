@@ -547,6 +547,22 @@ footer a:hover
 {
     color: #088178;
 }
+#footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#footer p span {
+    font-weight: bold;
+    color: #088178;
+}
+#footer p a {
+    color: #088178;
+    text-decoration: none;
+}
+#footer p a:hover {
+    text-decoration: underline;
+}
 #page-header
 {
     background-image: url(banner/b1.jpg);
@@ -748,9 +764,9 @@ footer a:hover
 }
 #about-app .video
 {
-    width: 70%;
-    height: 100%;
-    margin: 30px auto 0 auto;
+    width: 30%;
+    height: 50%;
+    margin: 20px auto 0 auto;
 
 }
 #about-app .video video
@@ -1100,5 +1116,19 @@ footer a:hover
 
     #form-details form button {
         width: 100%; /* Make button full width */
+    }
+}
+@media (max-width: 768px) {
+    #footer {
+        padding: 15px 0;
+    }
+    #footer p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    #footer p {
+        font-size: 12px;
     }
 }
