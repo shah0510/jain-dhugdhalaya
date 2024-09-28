@@ -1132,3 +1132,31 @@ footer a:hover
         font-size: 12px;
     }
 }
+
+@media (max-width: 768px) {
+    #about-head {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about-head div {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    #about-head img {
+        max-width: 80%; /* Make image smaller on tablet/mobile */
+    }
+}
+
+@media (max-width: 768px) {
+    #about-app .video {
+        width: 80%; /* Adjust video width for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    #about-app .video {
+        width: 100%; /* Full width for mobile devices */
+    }
+}
