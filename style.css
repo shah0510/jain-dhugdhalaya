@@ -1095,27 +1095,31 @@ footer a:hover
 
 @media (max-width: 480px) {
     #form-details {
-        padding: 20px; /* Further reduce padding */
-        margin: 15px; /* Adjust margin for small screens */
-    }
-
-    #form-details .people div {
-        flex-direction: column; /* Stack image and text vertically */
-        align-items: flex-start; /* Align text to start */
-    }
-
-    #form-details .people div img {
-        margin-right: 0; /* Remove right margin */
-        margin-bottom: 10px; /* Add bottom margin */
+        margin: 15px;
+        padding: 20px;
     }
 
     #form-details form input,
     #form-details form textarea {
-        padding: 10px; /* Reduce padding for smaller inputs */
+        padding: 10px;
     }
 
     #form-details form button {
-        width: 100%; /* Make button full width */
+        padding: 10px 20px;
+    }
+
+    #form-details .people div img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #form-details .people div p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #form-details .people div p span {
+        font-size: 14px;
     }
 }
 @media (max-width: 768px) {
