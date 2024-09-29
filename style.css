@@ -1093,10 +1093,27 @@ footer a:hover
     }
 }
 
+@media (max-width: 768px) {
+    #form-details {
+        flex-direction: column-reverse; /* Reverse the order */
+        padding: 40px;
+    }
+
+    #form-details form {
+        width: 100%;
+    }
+
+    #form-details .people {
+        width: 100%;
+        margin-bottom: 40px; /* Move people section below the form */
+    }
+}
+
 @media (max-width: 480px) {
     #form-details {
         margin: 15px;
         padding: 20px;
+        flex-direction: column-reverse; /* Ensure reverse order for smaller screens */
     }
 
     #form-details form input,
